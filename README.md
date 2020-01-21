@@ -5,4 +5,5 @@ An Android Jetpack Compose app with Clean Architecture
 
 ## 🏗️️ Built with
 
-| What                    | How                   
+| What                    | How                        |
+|----------------         |----------------
