@@ -7,4 +7,5 @@ An Android Jetpack Compose app with Clean Architecture
 
 | What                    | How                        |
 |----------------         |------------------------------    |
-| 📝  Language            | [Kotlin](https://kotlinlang.org/)      
+| 📝  Language            | [Kotlin](https://kotlinlang.org/)                            |
+| 🏗  Architecture        |
