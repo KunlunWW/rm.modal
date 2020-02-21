@@ -8,4 +8,4 @@ An Android Jetpack Compose app with Clean Architecture
 | What                    | How                        |
 |----------------         |------------------------------    |
 | 📝  Language            | [Kotlin](https://kotlinlang.org/)                            |
-| 🏗  Architecture        |
+| 🏗  Architecture        | [MVVM](https://en.wikipedia.org/wiki/Mod
