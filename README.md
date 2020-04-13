@@ -12,4 +12,4 @@ An Android Jetpack Compose app with Clean Architecture
 | 👓  UI                  | [Jetpack Compose](https://developer.android.com/jetpack/compose)                                      |
 | 🖼️  Image provider      | [Coil](https://github.com/coil-kt/coil)                                      |
 | 🧠  API                 | [CoinPaprika](https://api.coinpaprika.com/)                            |
-| 💉  DI  
+| 💉  DI                  | [Dagger-Hilt](https://dagger.d
