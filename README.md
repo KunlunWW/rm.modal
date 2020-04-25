@@ -15,4 +15,4 @@ An Android Jetpack Compose app with Clean Architecture
 | 💉  DI                  | [Dagger-Hilt](https://dagger.dev/hilt/)                        |
 | 🛣️  Navigation  | [Navigation Compose](https://developer.android.com/jetpack/compose/navigation)                        |
 | 🌊  Async               | [Coroutines + Flow](https://kotlinlang.org/docs/coroutines-overview.html)                |
-| 🌐  Net
+| 🌐  Networking          | [Retrofit](https://github.com/s
