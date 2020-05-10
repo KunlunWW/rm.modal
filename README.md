@@ -16,4 +16,4 @@ An Android Jetpack Compose app with Clean Architecture
 | 🛣️  Navigation  | [Navigation Compose](https://developer.android.com/jetpack/compose/navigation)                        |
 | 🌊  Async               | [Coroutines + Flow](https://kotlinlang.org/docs/coroutines-overview.html)                |
 | 🌐  Networking          | [Retrofit](https://github.com/square/retrofit)                        |
-| 📄  JSON                | [Gson](htt
+| 📄  JSON                | [Gson](https://github.com/google/gson)                       
