@@ -12,4 +12,4 @@
 #   public *;
 #}
 
-# Uncomm
+# Uncomment this to preserve the line number information
