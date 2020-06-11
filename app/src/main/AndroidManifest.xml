@@ -7,4 +7,5 @@
     <application
         android:name="com.garcia.cryptoinfo.CoinApplication"
         android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
     
