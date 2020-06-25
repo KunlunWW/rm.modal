@@ -14,4 +14,5 @@
         android:theme="@style/Theme.CryptoInfoApp">
         <activity
             android:name="com.garcia.cryptoinfo.presentation.MainActivity"
-            android:exporte
+            android:exported="true"
+            android:label="@string
