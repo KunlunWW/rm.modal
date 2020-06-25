@@ -13,4 +13,5 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.CryptoInfoApp">
         <activity
-            android:name="com.garcia.cryptoinfo.presenta
+            android:name="com.garcia.cryptoinfo.presentation.MainActivity"
+            android:exporte
