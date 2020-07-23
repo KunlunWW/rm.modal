@@ -1,3 +1,4 @@
 package com.garcia.cryptoinfo.common
 
-object Consta
+object Constants {
+    const val BASE_URL = "https://
