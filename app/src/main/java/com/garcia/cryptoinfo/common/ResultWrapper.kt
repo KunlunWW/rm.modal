@@ -1,1 +1,3 @@
-package com.garcia.cr
+package com.garcia.cryptoinfo.common
+
+sealed class ResultWrapper<out T>
