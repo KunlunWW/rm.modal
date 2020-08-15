@@ -1,3 +1,4 @@
 package com.garcia.cryptoinfo.data.remote.client
 
-import
+import com.garcia.cryptoinfo.data.remote.dto.CoinDetailDto
+im
