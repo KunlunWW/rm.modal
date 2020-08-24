@@ -68,3 +68,29 @@ data class CoinDetailDto(
         @SerializedName("name")
         val name: String,
         @SerializedName("position")
+        val position: String
+    ){
+        fun toTeamMember(): CoinDetail.TeamMember{
+            return CoinDetail.TeamMember(
+                id = id,
+                name = name,
+                position = position
+            )
+        }
+    }
+}
+
+fun CoinDetailDto.toCoinDetail(): CoinDetail {
+    return CoinDetail(
+        coinId = id,
+        name = name,
+        description = description,
+        symbol = symbol,
+        rank = rank,
+        isActive = isActive,
+        isNew = isNew,
+        type = type,
+        tags = tags.map { it.name },
+        team = team.map { it.toTeamMember() }
+    )
+}
