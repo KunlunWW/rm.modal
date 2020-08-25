@@ -1,1 +1,4 @@
-package com.garcia.cryp
+package com.garcia.cryptoinfo.data.remote.dto
+
+
+import com.google.
