@@ -11,4 +11,6 @@ data class CoinDto(
     val isActive: Boolean,
     @SerializedName("is_new")
     val isNew: Boolean,
-    @SerializedName("nam
+    @SerializedName("name")
+    val name: String,
+    @SerializedName("rank
