@@ -7,4 +7,6 @@ import com.garcia.cryptoinfo.domain.model.Coin
 data class CoinDto(
     @SerializedName("id")
     val id: String,
-    @Seriali
+    @SerializedName("is_active")
+    val isActive: Boolean,
+    
