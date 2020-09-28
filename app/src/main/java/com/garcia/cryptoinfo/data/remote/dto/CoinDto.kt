@@ -17,4 +17,8 @@ data class CoinDto(
     val rank: Int,
     @SerializedName("symbol")
     val symbol: String,
-    @SerializedName("t
+    @SerializedName("type")
+    val type: String
+)
+
+fun CoinDto.toCoin(
