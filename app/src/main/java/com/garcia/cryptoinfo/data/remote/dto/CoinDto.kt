@@ -21,4 +21,7 @@ data class CoinDto(
     val type: String
 )
 
-fun CoinDto.toCoin(
+fun CoinDto.toCoin(): Coin {
+    return Coin(
+        id = id,
+     
