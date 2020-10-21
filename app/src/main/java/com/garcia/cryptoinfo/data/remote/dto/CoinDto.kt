@@ -29,4 +29,6 @@ fun CoinDto.toCoin(): Coin {
         name = name,
         rank = rank,
         symbol = symbol,
-        type = ty
+        type = type,
+    )
+}
