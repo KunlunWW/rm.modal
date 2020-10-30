@@ -7,4 +7,6 @@ import javax.inject.Inject
 
 class ResponseHandler @Inject constructor() {
 
-    suspend operator fun <T : Any> invoke(apiCall: suspend () -> T): Result
+    suspend operator fun <T : Any> invoke(apiCall: suspend () -> T): ResultWrapper<T> {
+        return try {
+           
