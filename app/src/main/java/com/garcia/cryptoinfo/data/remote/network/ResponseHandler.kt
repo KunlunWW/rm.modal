@@ -9,4 +9,5 @@ class ResponseHandler @Inject constructor() {
 
     suspend operator fun <T : Any> invoke(apiCall: suspend () -> T): ResultWrapper<T> {
         return try {
-           
+            ResultWrapper.Success(apiCall.invoke())
+        } cat
