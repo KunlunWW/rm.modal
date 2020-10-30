@@ -7,3 +7,4 @@ import javax.inject.Inject
 
 class ResponseHandler @Inject constructor() {
 
+    suspend operator fun <T : Any> invoke(a
