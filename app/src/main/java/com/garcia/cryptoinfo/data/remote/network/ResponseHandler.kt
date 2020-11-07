@@ -13,4 +13,4 @@ class ResponseHandler @Inject constructor() {
         } catch (throwable: Throwable) {
             val errorMessage = throwable.localizedMessage
             when (throwable) {
-        
+                is IOException -> ResultWrapper.NetworkErr
