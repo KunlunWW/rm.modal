@@ -12,4 +12,5 @@ class ResponseHandler @Inject constructor() {
             ResultWrapper.Success(apiCall.invoke())
         } catch (throwable: Throwable) {
             val errorMessage = throwable.localizedMessage
- 
+            when (throwable) {
+        
