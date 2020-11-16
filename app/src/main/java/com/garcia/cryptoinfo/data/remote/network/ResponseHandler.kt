@@ -19,4 +19,5 @@ class ResponseHandler @Inject constructor() {
                     ResultWrapper.Error(code, errorMessage)
                 }
                 else -> {
-        
+                    ResultWrapper.Error(null, null)
+                
