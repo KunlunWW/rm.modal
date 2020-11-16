@@ -17,4 +17,6 @@ class ResponseHandler @Inject constructor() {
                 is HttpException -> {
                     val code = throwable.code()
                     ResultWrapper.Error(code, errorMessage)
-   
+                }
+                else -> {
+        
