@@ -20,4 +20,8 @@ class ResponseHandler @Inject constructor() {
                 }
                 else -> {
                     ResultWrapper.Error(null, null)
-                
+                }
+            }
+        }
+    }
+}
