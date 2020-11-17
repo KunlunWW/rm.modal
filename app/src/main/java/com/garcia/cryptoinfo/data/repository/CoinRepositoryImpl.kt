@@ -12,3 +12,19 @@ import com.garcia.cryptoinfo.domain.repository.CoinRepository
 import javax.inject.Inject
 
 class CoinRepositoryImpl @Inject constructor(
+    private val api: CoinPaprikaApi,
+    private val responseHandler: ResponseHandler
+) : CoinRepository {
+
+    override suspend fun getCoins(): ResultWrapper<List<Coin>> {
+        return responseHandler {
+            api.getCoins().map { coinDto -> coinDto.toCoin() }
+        }
+    }
+
+    override suspend fun getCoinById(coinId: String): ResultWrapper<CoinDetail> {
+        return responseHandler {
+            api.getCoinById(coinId).toCoinDetail()
+        }
+    }
+}
