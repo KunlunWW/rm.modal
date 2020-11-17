@@ -32,3 +32,11 @@ abstract class AppModule {
             .baseUrl(Constants.BASE_URL)
             .addConverterFactory(GsonConverterFactory.create())
             .build()
+
+        @Provides
+        @Singleton
+        fun providePaprikaApi(retrofit: Retrofit): CoinPaprikaApi {
+            return retrofit.create(CoinPaprikaApi::class.java)
+        }
+    }
+}
