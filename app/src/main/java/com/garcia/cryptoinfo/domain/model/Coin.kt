@@ -7,4 +7,5 @@ data class Coin(
     val name: String,
     val rank: Int,
     val symbol: String,
-  
+    val type: String,
+)
