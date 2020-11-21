@@ -18,3 +18,4 @@ data class CoinDetail(
         val name: String,
         val position: String
     )
+}
