@@ -1,1 +1,3 @@
-package com.garcia.cryptoinfo.domain.repos
+package com.garcia.cryptoinfo.domain.repository
+
+import com.garcia.cryptoinfo.domain.mod
