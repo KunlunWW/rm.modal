@@ -4,4 +4,6 @@ import com.garcia.cryptoinfo.domain.model.Coin
 import com.garcia.cryptoinfo.domain.model.CoinDetail
 import com.garcia.cryptoinfo.common.ResultWrapper
 
-i
+interface CoinRepository {
+
+    suspend fun getC
