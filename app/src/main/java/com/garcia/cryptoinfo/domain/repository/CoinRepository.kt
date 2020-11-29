@@ -6,4 +6,6 @@ import com.garcia.cryptoinfo.common.ResultWrapper
 
 interface CoinRepository {
 
-    suspend fun getC
+    suspend fun getCoins(): ResultWrapper<List<Coin>>
+
+    suspend fun 
