@@ -8,4 +8,6 @@ interface CoinRepository {
 
     suspend fun getCoins(): ResultWrapper<List<Coin>>
 
-    suspend fun getCoinById(coinId: String): ResultWrapper<CoinDet
+    suspend fun getCoinById(coinId: String): ResultWrapper<CoinDetail>
+
+}
