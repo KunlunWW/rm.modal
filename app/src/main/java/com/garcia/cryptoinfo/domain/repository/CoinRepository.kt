@@ -8,4 +8,4 @@ interface CoinRepository {
 
     suspend fun getCoins(): ResultWrapper<List<Coin>>
 
-    suspend fun 
+    suspend fun getCoinById(coinId: String): ResultWrapper<CoinDet
