@@ -7,4 +7,5 @@ import androidx.compose.material.MaterialTheme
 import androidx.compose.material.Surface
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
-import androidx.navigation.compose.rememberNavCo
+import androidx.navigation.compose.rememberNavController
+import com.garcia.cryptoinfo.presentat
