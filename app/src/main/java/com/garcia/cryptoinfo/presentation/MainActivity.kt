@@ -10,4 +10,5 @@ import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
 import com.garcia.cryptoinfo.presentation.coin_detail.CoinDetailScreen
 import com.garcia.cryptoinfo.presentation.coin_list.coinListScreen
-import com.garcia.cryptoinfo.presentat
+import com.garcia.cryptoinfo.presentation.ui.theme.cryptoInfoAppTheme
+im
