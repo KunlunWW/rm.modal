@@ -11,4 +11,5 @@ import androidx.navigation.compose.rememberNavController
 import com.garcia.cryptoinfo.presentation.coin_detail.CoinDetailScreen
 import com.garcia.cryptoinfo.presentation.coin_list.coinListScreen
 import com.garcia.cryptoinfo.presentation.ui.theme.cryptoInfoAppTheme
-im
+import dagger.hilt.android.AndroidEntryPoint
+
