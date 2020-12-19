@@ -14,4 +14,5 @@ import com.garcia.cryptoinfo.presentation.ui.theme.cryptoInfoAppTheme
 import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint
-class MainActivit
+class MainActivity : ComponentActivity() {
+    override fun onCreate(s
