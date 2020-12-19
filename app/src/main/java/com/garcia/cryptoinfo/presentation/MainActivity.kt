@@ -15,4 +15,5 @@ import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint
 class MainActivity : ComponentActivity() {
-    override fun onCreate(s
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCr
