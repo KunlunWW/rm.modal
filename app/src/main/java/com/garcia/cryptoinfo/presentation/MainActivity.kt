@@ -19,4 +19,5 @@ class MainActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
         setContent {
             cryptoInfoAppTheme {
-                Surface(color = MaterialTheme.colors.
+                Surface(color = MaterialTheme.colors.background) {
+                    val navCont
