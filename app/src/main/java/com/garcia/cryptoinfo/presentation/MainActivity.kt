@@ -20,4 +20,5 @@ class MainActivity : ComponentActivity() {
         setContent {
             cryptoInfoAppTheme {
                 Surface(color = MaterialTheme.colors.background) {
-                    val navCont
+                    val navController = rememberNavController()
+                   
