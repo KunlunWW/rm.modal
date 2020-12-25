@@ -23,4 +23,5 @@ class MainActivity : ComponentActivity() {
                     val navController = rememberNavController()
                     NavHost(
                         navController = navController,
-                        s
+                        startDestination = Screen.CoinListScreen.route,
+      
