@@ -25,4 +25,5 @@ class MainActivity : ComponentActivity() {
                         navController = navController,
                         startDestination = Screen.CoinListScreen.route,
                     ) {
-                        composab
+                        composable(
+                            route = Screen.CoinListScreen
