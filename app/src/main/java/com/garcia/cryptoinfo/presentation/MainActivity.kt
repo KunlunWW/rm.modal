@@ -29,4 +29,5 @@ class MainActivity : ComponentActivity() {
                             route = Screen.CoinListScreen.route
                         ) {
                             coinListScreen(navController)
- 
+                        }
+                        co
