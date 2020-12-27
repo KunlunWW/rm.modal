@@ -30,4 +30,5 @@ class MainActivity : ComponentActivity() {
                         ) {
                             coinListScreen(navController)
                         }
-                        co
+                        composable(
+                            route = Screen.CoinD
