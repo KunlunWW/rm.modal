@@ -1,3 +1,4 @@
 package com.garcia.cryptoinfo.presentation
 
-sea
+sealed class Screen(val route: String) {
+   
