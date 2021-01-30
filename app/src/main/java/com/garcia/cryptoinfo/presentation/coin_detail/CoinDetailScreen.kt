@@ -1,4 +1,5 @@
 package com.garcia.cryptoinfo.presentation.coin_detail
 
 import androidx.compose.foundation.Image
-import androidx.compose.foundation.layo
+import androidx.compose.foundation.layout.*
+import androidx.compose.foundat
