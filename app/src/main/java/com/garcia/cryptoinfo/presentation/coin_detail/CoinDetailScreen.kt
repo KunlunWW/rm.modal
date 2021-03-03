@@ -21,4 +21,6 @@ import androidx.compose.ui.unit.dp
 import androidx.hilt.navigation.compose.hiltViewModel
 import coil.annotation.ExperimentalCoilApi
 import coil.compose.rememberImagePainter
-import coil.decode.
+import coil.decode.SvgDecoder
+import com.garcia.cryptoinfo.common.Constants
+imp
