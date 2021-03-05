@@ -23,4 +23,4 @@ import coil.annotation.ExperimentalCoilApi
 import coil.compose.rememberImagePainter
 import coil.decode.SvgDecoder
 import com.garcia.cryptoinfo.common.Constants
-imp
+import com.garcia.cryptoinfo.presentation.coin_detail.comp
