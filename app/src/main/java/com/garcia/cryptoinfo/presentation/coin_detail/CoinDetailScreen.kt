@@ -27,4 +27,7 @@ import com.garcia.cryptoinfo.presentation.coin_detail.components.CoinTag
 import com.garcia.cryptoinfo.presentation.coin_detail.components.TeamListItem
 import com.google.accompanist.flowlayout.FlowRow
 
-@OptIn(ExperimentalCoilApi::c
+@OptIn(ExperimentalCoilApi::class)
+@Preview
+@Composable
+fun CoinDetailScreen(
