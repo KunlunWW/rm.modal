@@ -31,4 +31,6 @@ import com.google.accompanist.flowlayout.FlowRow
 @Preview
 @Composable
 fun CoinDetailScreen(
-    viewModel: CoinDetailViewModel = hiltVi
+    viewModel: CoinDetailViewModel = hiltViewModel()
+){
+    val state = viewModel.state
