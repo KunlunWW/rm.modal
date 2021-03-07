@@ -25,4 +25,6 @@ import coil.decode.SvgDecoder
 import com.garcia.cryptoinfo.common.Constants
 import com.garcia.cryptoinfo.presentation.coin_detail.components.CoinTag
 import com.garcia.cryptoinfo.presentation.coin_detail.components.TeamListItem
-import com.google.accompanist.flo
+import com.google.accompanist.flowlayout.FlowRow
+
+@OptIn(ExperimentalCoilApi::c
