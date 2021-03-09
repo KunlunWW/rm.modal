@@ -37,3 +37,4 @@ fun CoinDetailScreen(
     Box(modifier = Modifier.fillMaxSize()){
         state.coin?.let { coin ->
             LazyColumn(
+                modifier = Modifier.fil
