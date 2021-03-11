@@ -40,4 +40,6 @@ fun CoinDetailScreen(
                 modifier = Modifier.fillMaxSize(),
                 contentPadding = PaddingValues(20.dp)
             ) {
-          
+                item {
+                    Row(
+                        mod
