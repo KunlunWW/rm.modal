@@ -42,4 +42,5 @@ fun CoinDetailScreen(
             ) {
                 item {
                     Row(
-                        mod
+                        modifier = Modifier.fillMaxWidth(),
+                  
