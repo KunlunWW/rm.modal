@@ -47,4 +47,5 @@ fun CoinDetailScreen(
                     ) {
                         Row(
                             modifier = Modifier.weight(8f)
-        
+                        ) {
+                      
