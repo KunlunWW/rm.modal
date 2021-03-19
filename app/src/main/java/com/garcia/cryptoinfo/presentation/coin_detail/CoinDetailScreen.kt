@@ -46,4 +46,5 @@ fun CoinDetailScreen(
                         horizontalArrangement = Arrangement.SpaceBetween,
                     ) {
                         Row(
-                           
+                            modifier = Modifier.weight(8f)
+        
