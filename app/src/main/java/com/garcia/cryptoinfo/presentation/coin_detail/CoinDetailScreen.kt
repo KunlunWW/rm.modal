@@ -49,4 +49,5 @@ fun CoinDetailScreen(
                             modifier = Modifier.weight(8f)
                         ) {
                             Image(
-                                painter = rememberImagePai
+                                painter = rememberImagePainter(
+                                    "${Constants.COIN_LOG
