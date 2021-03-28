@@ -50,4 +50,4 @@ fun CoinDetailScreen(
                         ) {
                             Image(
                                 painter = rememberImagePainter(
-                                    "${Constants.COIN_LOG
+                                    "${Constants.COIN_LOGO_BASE_URL}${coin.coinId}${Constants.LOGO_
