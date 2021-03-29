@@ -52,4 +52,5 @@ fun CoinDetailScreen(
                                 painter = rememberImagePainter(
                                     "${Constants.COIN_LOGO_BASE_URL}${coin.coinId}${Constants.LOGO_PNG}",
                                     builder = {
-                                   
+                                        crossfade(true)
+                  
