@@ -54,4 +54,5 @@ fun CoinDetailScreen(
                                     builder = {
                                         crossfade(true)
                                     }
-               
+                                ),
+                            
