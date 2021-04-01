@@ -56,4 +56,5 @@ fun CoinDetailScreen(
                                     }
                                 ),
                                 contentDescription = null,
-              
+                                modifier = Modifier.size(50.dp)
+           
