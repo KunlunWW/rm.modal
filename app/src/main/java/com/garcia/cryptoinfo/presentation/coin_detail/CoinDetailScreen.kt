@@ -55,4 +55,5 @@ fun CoinDetailScreen(
                                         crossfade(true)
                                     }
                                 ),
-                            
+                                contentDescription = null,
+              
