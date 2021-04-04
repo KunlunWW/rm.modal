@@ -59,4 +59,5 @@ fun CoinDetailScreen(
                                 modifier = Modifier.size(50.dp)
                             )
                             Text(
-                                text = "${coin.rank} - ${coin.name} (${co
+                                text = "${coin.rank} - ${coin.name} (${coin.symbol})",
+                                s
