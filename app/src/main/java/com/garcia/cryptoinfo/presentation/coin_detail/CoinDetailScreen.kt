@@ -62,4 +62,5 @@ fun CoinDetailScreen(
                                 text = "${coin.rank} - ${coin.name} (${coin.symbol})",
                                 style = MaterialTheme.typography.h2,
                                 overflow = TextOverflow.Ellipsis,
-                                maxLines = 2
+                                maxLines = 2,
+                                modifier = Modifier
