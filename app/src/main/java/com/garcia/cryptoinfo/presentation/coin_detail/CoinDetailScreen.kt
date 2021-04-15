@@ -65,4 +65,5 @@ fun CoinDetailScreen(
                                 maxLines = 2,
                                 modifier = Modifier
                                     .align(Alignment.CenterVertically)
-                           
+                                    .padding(start = 12.dp)
+                   
