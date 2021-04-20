@@ -68,4 +68,6 @@ fun CoinDetailScreen(
                                     .padding(start = 12.dp)
                             )
                         }
-                        val status = "${if(coin.isNew) "New ${coin.type}! -" else ""} ${if(coin.isActive) "Active" else 
+                        val status = "${if(coin.isNew) "New ${coin.type}! -" else ""} ${if(coin.isActive) "Active" else "Inactive"}"
+                        Text(
+           
