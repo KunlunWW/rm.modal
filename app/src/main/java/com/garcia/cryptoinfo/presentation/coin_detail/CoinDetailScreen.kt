@@ -68,4 +68,4 @@ fun CoinDetailScreen(
                                     .padding(start = 12.dp)
                             )
                         }
-             
+                        val status = "${if(coin.isNew) "New ${coin.t
