@@ -72,4 +72,5 @@ fun CoinDetailScreen(
                         Text(
                             text = status,
                             color = if(coin.isActive) Color.Green else Color.Red,
-                            fon
+                            fontStyle = FontStyle.Italic,
+                
