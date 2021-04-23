@@ -71,4 +71,5 @@ fun CoinDetailScreen(
                         val status = "${if(coin.isNew) "New ${coin.type}! -" else ""} ${if(coin.isActive) "Active" else "Inactive"}"
                         Text(
                             text = status,
-                            color = if(coin.isActive) Color.Green e
+                            color = if(coin.isActive) Color.Green else Color.Red,
+                            fon
