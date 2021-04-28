@@ -78,4 +78,6 @@ fun CoinDetailScreen(
                             modifier = Modifier
                                 .align(Alignment.CenterVertically)
                                 .weight(2f)
-                       
+                        )
+                    }
+                    Spacer(modif
