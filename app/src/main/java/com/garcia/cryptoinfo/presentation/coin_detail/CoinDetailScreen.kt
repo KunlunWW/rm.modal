@@ -80,4 +80,5 @@ fun CoinDetailScreen(
                                 .weight(2f)
                         )
                     }
-                    Spacer(modif
+                    Spacer(modifier = Modifier.height(15.dp))
+                    I
