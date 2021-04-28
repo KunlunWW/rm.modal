@@ -77,4 +77,5 @@ fun CoinDetailScreen(
                             style = MaterialTheme.typography.body2,
                             modifier = Modifier
                                 .align(Alignment.CenterVertically)
-        
+                                .weight(2f)
+                       
