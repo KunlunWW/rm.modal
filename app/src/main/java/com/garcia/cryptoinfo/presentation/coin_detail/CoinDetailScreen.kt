@@ -75,4 +75,5 @@ fun CoinDetailScreen(
                             fontStyle = FontStyle.Italic,
                             textAlign = TextAlign.End,
                             style = MaterialTheme.typography.body2,
-                            mo
+                            modifier = Modifier
+                             
