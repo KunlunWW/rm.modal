@@ -81,4 +81,5 @@ fun CoinDetailScreen(
                         )
                     }
                     Spacer(modifier = Modifier.height(15.dp))
-                    I
+                    Image(
+                        painter = rememberI
