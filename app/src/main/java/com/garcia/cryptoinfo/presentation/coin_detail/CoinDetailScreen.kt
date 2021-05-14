@@ -83,4 +83,5 @@ fun CoinDetailScreen(
                     Spacer(modifier = Modifier.height(15.dp))
                     Image(
                         painter = rememberImagePainter(
-                            "${Constants.CHART_BASE_URL}${coin.coinId}${Constants.
+                            "${Constants.CHART_BASE_URL}${coin.coinId}${Constants.CHART_7DAYS}",
+                      
