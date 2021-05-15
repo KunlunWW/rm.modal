@@ -85,4 +85,5 @@ fun CoinDetailScreen(
                         painter = rememberImagePainter(
                             "${Constants.CHART_BASE_URL}${coin.coinId}${Constants.CHART_7DAYS}",
                             builder = {
-                                crossfad
+                                crossfade(true)
+                                dec
