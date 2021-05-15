@@ -86,4 +86,5 @@ fun CoinDetailScreen(
                             "${Constants.CHART_BASE_URL}${coin.coinId}${Constants.CHART_7DAYS}",
                             builder = {
                                 crossfade(true)
-                                dec
+                                decoder(SvgDecoder(LocalContext.current))
+                   
