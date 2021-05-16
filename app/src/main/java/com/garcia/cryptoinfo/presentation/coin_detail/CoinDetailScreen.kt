@@ -89,4 +89,5 @@ fun CoinDetailScreen(
                                 decoder(SvgDecoder(LocalContext.current))
                             }
                         ),
-      
+                        contentDescription = null,
+         
