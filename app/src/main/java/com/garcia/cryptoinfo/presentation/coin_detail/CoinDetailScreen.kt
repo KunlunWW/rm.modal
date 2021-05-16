@@ -87,4 +87,6 @@ fun CoinDetailScreen(
                             builder = {
                                 crossfade(true)
                                 decoder(SvgDecoder(LocalContext.current))
-                   
+                            }
+                        ),
+      
