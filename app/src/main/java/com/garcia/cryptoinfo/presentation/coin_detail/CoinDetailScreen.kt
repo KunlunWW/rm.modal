@@ -97,4 +97,5 @@ fun CoinDetailScreen(
                     )
                     Spacer(modifier = Modifier.height(15.dp))
                     Text(
-        
+                        text = coin.description,
+    
