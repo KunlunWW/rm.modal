@@ -94,4 +94,5 @@ fun CoinDetailScreen(
                             .fillMaxWidth()
                             .height(120.dp)
 
-                   
+                    )
+                    Spacer(modifier = Modifier.height(1
