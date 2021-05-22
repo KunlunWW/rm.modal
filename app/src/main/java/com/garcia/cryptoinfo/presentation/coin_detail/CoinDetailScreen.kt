@@ -92,4 +92,6 @@ fun CoinDetailScreen(
                         contentDescription = null,
                         modifier = Modifier
                             .fillMaxWidth()
-                    
+                            .height(120.dp)
+
+                   
