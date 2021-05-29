@@ -102,4 +102,5 @@ fun CoinDetailScreen(
                     )
                     Spacer(modifier = Modifier.height(15.dp))
                     Text(
-                        text = "
+                        text = "Tags",
+                        style = MaterialThem
