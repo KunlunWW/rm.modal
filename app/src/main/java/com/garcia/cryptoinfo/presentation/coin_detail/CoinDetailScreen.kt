@@ -108,4 +108,5 @@ fun CoinDetailScreen(
                     Spacer(modifier = Modifier.height(15.dp))
                     FlowRow(
                         mainAxisSpacing = 10.dp,
-                        crossAxisSpac
+                        crossAxisSpacing = 10.dp,
+                        modifier = 
