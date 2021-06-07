@@ -114,4 +114,5 @@ fun CoinDetailScreen(
                         coin.tags.forEach { tag ->
                             CoinTag(tag = tag)
                         }
-  
+                    }
+                    Spacer(modifier = M
