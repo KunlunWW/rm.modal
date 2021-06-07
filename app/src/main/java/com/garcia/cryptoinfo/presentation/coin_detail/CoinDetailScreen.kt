@@ -112,4 +112,6 @@ fun CoinDetailScreen(
                         modifier = Modifier.fillMaxWidth()
                     ) {
                         coin.tags.forEach { tag ->
-                            CoinTag(tag = 
+                            CoinTag(tag = tag)
+                        }
+  
