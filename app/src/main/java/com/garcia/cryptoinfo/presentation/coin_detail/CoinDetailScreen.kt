@@ -118,4 +118,5 @@ fun CoinDetailScreen(
                     Spacer(modifier = Modifier.height(15.dp))
                 }
                 if(coin.team.isNotEmpty()){
-           
+                    item {
+                        Text(
