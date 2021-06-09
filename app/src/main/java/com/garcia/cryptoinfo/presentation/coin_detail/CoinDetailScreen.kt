@@ -120,3 +120,5 @@ fun CoinDetailScreen(
                 if(coin.team.isNotEmpty()){
                     item {
                         Text(
+                            text = "Team members",
+ 
