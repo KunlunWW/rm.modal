@@ -121,4 +121,6 @@ fun CoinDetailScreen(
                     item {
                         Text(
                             text = "Team members",
-                            style = MaterialTheme.typo
+                            style = MaterialTheme.typography.h3,
+                        )
+     
