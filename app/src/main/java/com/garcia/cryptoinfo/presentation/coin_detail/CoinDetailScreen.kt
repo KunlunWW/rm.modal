@@ -123,4 +123,6 @@ fun CoinDetailScreen(
                             text = "Team members",
                             style = MaterialTheme.typography.h3,
                         )
-                        Spacer(modifier = Modifier.
+                        Spacer(modifier = Modifier.height(15.dp))
+                    }
+                    item
