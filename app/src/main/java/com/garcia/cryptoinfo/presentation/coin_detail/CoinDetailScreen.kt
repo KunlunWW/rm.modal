@@ -125,4 +125,5 @@ fun CoinDetailScreen(
                         )
                         Spacer(modifier = Modifier.height(15.dp))
                     }
-                    item
+                    items(coin.team) { teamMember ->
+                        TeamListI
