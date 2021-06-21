@@ -128,4 +128,5 @@ fun CoinDetailScreen(
                     items(coin.team) { teamMember ->
                         TeamListItem(
                             teamMember = teamMember,
-                            mo
+                            modifier = Modifier
+                              
