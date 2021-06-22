@@ -132,4 +132,5 @@ fun CoinDetailScreen(
                                 .fillMaxWidth()
                                 .padding(10.dp),
                         )
-         
+                        Divider()
+                  
