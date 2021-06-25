@@ -138,4 +138,6 @@ fun CoinDetailScreen(
             }
         }
 
-      
+        state.error?.let {
+            Text(
+                text = i
