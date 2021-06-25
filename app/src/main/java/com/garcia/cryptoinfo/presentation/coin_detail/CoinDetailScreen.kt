@@ -133,4 +133,9 @@ fun CoinDetailScreen(
                                 .padding(10.dp),
                         )
                         Divider()
-                  
+                    }
+                }
+            }
+        }
+
+      
