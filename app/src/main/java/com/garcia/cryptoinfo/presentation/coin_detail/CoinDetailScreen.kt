@@ -140,4 +140,4 @@ fun CoinDetailScreen(
 
         state.error?.let {
             Text(
-                text = i
+                text = it.message ?: LocalContext.current.getString(it.
