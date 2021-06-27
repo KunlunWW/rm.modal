@@ -141,4 +141,5 @@ fun CoinDetailScreen(
         state.error?.let {
             Text(
                 text = it.message ?: LocalContext.current.getString(it.resourceId),
-                color = MaterialTheme
+                color = MaterialTheme.colors.error,
+                textAlign = TextAlig
