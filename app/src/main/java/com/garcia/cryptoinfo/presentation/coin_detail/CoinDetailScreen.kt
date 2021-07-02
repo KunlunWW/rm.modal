@@ -145,4 +145,6 @@ fun CoinDetailScreen(
                 textAlign = TextAlign.Center,
                 modifier = Modifier
                     .fillMaxWidth()
-                    .padding(horizontal = 20.dp
+                    .padding(horizontal = 20.dp)
+                    .align(Alignment.Center)
+            
