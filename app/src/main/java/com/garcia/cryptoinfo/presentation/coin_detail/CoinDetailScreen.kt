@@ -150,4 +150,6 @@ fun CoinDetailScreen(
             )
         }
 
-        if(state.isLoad
+        if(state.isLoading) {
+            CircularProgressIndicator(
+             
