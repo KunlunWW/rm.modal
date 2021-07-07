@@ -30,3 +30,27 @@ class CoinDetailViewModel @Inject constructor(
 
     private val _state = mutableStateOf (ViewState())
     val state : State<ViewState> = _state
+
+    init {
+        savedStateHandle.get<String>("coinId")?.let {
+            getCoinDetails(it)
+        }
+    }
+
+    private fun getCoinDetails(coinId: String){
+        _state.value = ViewState(isLoading = true)
+        getCoinUseCase(coinId).onEach { result ->
+            when(result){
+                is ResultWrapper.Error -> {
+                    _state.value = ViewState(error = Error(resourceId = R.string.unexpected_error_message, message = result.message))
+                }
+                ResultWrapper.NetworkError -> {
+                    _state.value = ViewState(error = Error(resourceId = R.string.connection_error))
+                }
+                is ResultWrapper.Success -> {
+                    _state.value = ViewState(coin = result.value)
+                }
+            }
+        }.launchIn(viewModelScope)
+    }
+}
