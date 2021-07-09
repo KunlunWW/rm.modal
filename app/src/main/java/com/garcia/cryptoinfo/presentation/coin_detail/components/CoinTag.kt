@@ -19,3 +19,17 @@ fun CoinTag(
     Box(
         modifier = Modifier
             .border(
+                width = 1.dp,
+                color = MaterialTheme.colors.primary,
+                shape = RoundedCornerShape(100.dp)
+            )
+            .padding(10.dp)
+    ){
+        Text(
+            text = tag,
+            color = MaterialTheme.colors.primary,
+            textAlign = TextAlign.Center,
+            style = MaterialTheme.typography.body2
+        )
+    }
+}
