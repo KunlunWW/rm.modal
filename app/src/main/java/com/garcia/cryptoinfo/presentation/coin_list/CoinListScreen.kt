@@ -1,4 +1,5 @@
 package com.garcia.cryptoinfo.presentation.coin_list
 
 import androidx.compose.foundation.layout.Box
-import androidx.compose.foundation.layout.fillMax
+import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.foundation.la
