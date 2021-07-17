@@ -11,4 +11,5 @@ import androidx.compose.material.MaterialTheme
 import androidx.compose.material.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.livedata.observeAsState
-import an
+import androidx.compose.ui.Alignment
+import androidx.compose.u
