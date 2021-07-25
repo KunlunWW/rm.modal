@@ -18,4 +18,5 @@ import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.navigation.NavController
-import com.garcia.cryptoinfo.pr
+import com.garcia.cryptoinfo.presentation.Screen
+import com.garcia.cryptoinfo.presenta
