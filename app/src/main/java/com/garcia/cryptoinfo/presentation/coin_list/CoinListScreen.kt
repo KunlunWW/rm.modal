@@ -21,4 +21,6 @@ import androidx.navigation.NavController
 import com.garcia.cryptoinfo.presentation.Screen
 import com.garcia.cryptoinfo.presentation.coin_list.components.CoinListItem
 
-@Compos
+@Composable
+fun coinListScreen(
+    navController: NavCont
