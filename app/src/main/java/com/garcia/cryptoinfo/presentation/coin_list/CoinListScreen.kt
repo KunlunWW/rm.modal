@@ -19,4 +19,6 @@ import androidx.compose.ui.unit.dp
 import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.navigation.NavController
 import com.garcia.cryptoinfo.presentation.Screen
-import com.garcia.cryptoinfo.presenta
+import com.garcia.cryptoinfo.presentation.coin_list.components.CoinListItem
+
+@Compos
