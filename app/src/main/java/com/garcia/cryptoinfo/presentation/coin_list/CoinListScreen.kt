@@ -23,4 +23,5 @@ import com.garcia.cryptoinfo.presentation.coin_list.components.CoinListItem
 
 @Composable
 fun coinListScreen(
-    navController: NavCont
+    navController: NavController,
+    viewModel: CoinListViewMod
