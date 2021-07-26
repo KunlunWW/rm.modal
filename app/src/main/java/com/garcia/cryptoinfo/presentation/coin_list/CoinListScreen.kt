@@ -28,4 +28,5 @@ fun coinListScreen(
 ){
     val state = viewModel.stateLiveData.observeAsState()
 
+    Box(modifier = Modifier.fillMaxSize()){
    
