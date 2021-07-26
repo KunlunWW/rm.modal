@@ -24,4 +24,6 @@ import com.garcia.cryptoinfo.presentation.coin_list.components.CoinListItem
 @Composable
 fun coinListScreen(
     navController: NavController,
-    viewModel: CoinListViewMod
+    viewModel: CoinListViewModel = hiltViewModel()
+){
+    val state = view
