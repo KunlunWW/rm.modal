@@ -26,4 +26,6 @@ fun coinListScreen(
     navController: NavController,
     viewModel: CoinListViewModel = hiltViewModel()
 ){
-    val state = view
+    val state = viewModel.stateLiveData.observeAsState()
+
+   
