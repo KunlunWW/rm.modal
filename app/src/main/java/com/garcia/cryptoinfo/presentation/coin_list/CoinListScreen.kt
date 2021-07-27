@@ -29,4 +29,5 @@ fun coinListScreen(
     val state = viewModel.stateLiveData.observeAsState()
 
     Box(modifier = Modifier.fillMaxSize()){
-        LazyColumn(modifier = Modifier.fillMaxSize(
+        LazyColumn(modifier = Modifier.fillMaxSize()) {
+            items(state.value?.coins ?: listOf()) { coin ->
