@@ -32,4 +32,5 @@ fun coinListScreen(
         LazyColumn(modifier = Modifier.fillMaxSize()) {
             items(state.value?.coins ?: listOf()) { coin ->
                 CoinListItem(
-              
+                    coin = coin,
+               
