@@ -33,4 +33,5 @@ fun coinListScreen(
             items(state.value?.coins ?: listOf()) { coin ->
                 CoinListItem(
                     coin = coin,
-               
+                    onItemClick = {
+                        navCont
