@@ -34,4 +34,4 @@ fun coinListScreen(
                 CoinListItem(
                     coin = coin,
                     onItemClick = {
-                        navCont
+                        navController.navigate(Screen.CoinDetailScreen.route + 
