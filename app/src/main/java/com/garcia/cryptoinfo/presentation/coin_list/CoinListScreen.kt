@@ -39,4 +39,6 @@ fun coinListScreen(
                 )
             }
         }
-        st
+        state.value?.error?.let {
+            Text(
+           
