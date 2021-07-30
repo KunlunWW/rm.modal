@@ -37,3 +37,6 @@ fun coinListScreen(
                         navController.navigate(Screen.CoinDetailScreen.route + "/${coin.id}")
                     }
                 )
+            }
+        }
+        st
