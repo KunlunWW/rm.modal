@@ -41,4 +41,5 @@ fun coinListScreen(
         }
         state.value?.error?.let {
             Text(
-                text = it.message ?: LocalContext.current.getStri
+                text = it.message ?: LocalContext.current.getString(it.resourceId),
+                color = 
