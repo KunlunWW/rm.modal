@@ -44,4 +44,5 @@ fun coinListScreen(
                 text = it.message ?: LocalContext.current.getString(it.resourceId),
                 color = MaterialTheme.colors.error,
                 textAlign = TextAlign.Center,
-                mod
+                modifier = Modifier
+                    .fillMax
