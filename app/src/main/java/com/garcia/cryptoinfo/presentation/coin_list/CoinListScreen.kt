@@ -43,4 +43,5 @@ fun coinListScreen(
             Text(
                 text = it.message ?: LocalContext.current.getString(it.resourceId),
                 color = MaterialTheme.colors.error,
-                textAl
+                textAlign = TextAlign.Center,
+                mod
