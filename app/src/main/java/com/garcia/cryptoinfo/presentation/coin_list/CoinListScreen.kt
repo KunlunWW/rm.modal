@@ -46,4 +46,6 @@ fun coinListScreen(
                 textAlign = TextAlign.Center,
                 modifier = Modifier
                     .fillMaxWidth()
-                    .padding(horizontal =
+                    .padding(horizontal = 20.dp)
+                    .align(Alignment.Center)
+  
