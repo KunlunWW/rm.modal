@@ -45,4 +45,5 @@ fun coinListScreen(
                 color = MaterialTheme.colors.error,
                 textAlign = TextAlign.Center,
                 modifier = Modifier
-                    .fillMax
+                    .fillMaxWidth()
+                    .padding(horizontal =
