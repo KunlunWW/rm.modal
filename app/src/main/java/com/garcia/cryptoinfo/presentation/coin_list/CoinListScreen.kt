@@ -50,4 +50,5 @@ fun coinListScreen(
                     .align(Alignment.Center)
             )
         }
-        if(state.value?.isLo
+        if(state.value?.isLoading == true) {
+            CircularProgressIndicator(
