@@ -52,3 +52,4 @@ fun coinListScreen(
         }
         if(state.value?.isLoading == true) {
             CircularProgressIndicator(
+                modifier = Modifier.align(Alignment.Cent
