@@ -21,3 +21,36 @@ class CoinListViewModel @Inject constructor(
 ) : ViewModel() {
 
     data class ViewState(
+        val isLoading: Boolean = false,
+        val coins: List<Coin> = emptyList(),
+        val error: Error? = null,
+    )
+
+    //private val _state = mutableStateOf (ViewState())
+    //val state : State<ViewState> = _state
+
+    private val stateMutableLiveData = MutableLiveData(ViewState())
+    val stateLiveData = stateMutableLiveData as LiveData<ViewState>
+
+    init {
+        getCoins()
+    }
+
+    private fun getCoins(){
+        //_state.value = ViewState(isLoading = true)
+        stateMutableLiveData.value = ViewState(isLoading = true)
+        getCoinsUseCase().onEach { result ->
+            when(result){
+                is ResultWrapper.Error -> {
+                    stateMutableLiveData.value = ViewState(error = Error(resourceId = R.string.unexpected_error_message, message = result.message))
+                }
+                ResultWrapper.NetworkError -> {
+                    stateMutableLiveData.value = ViewState(error = Error(resourceId = R.string.connection_error))
+                }
+                is ResultWrapper.Success -> {
+                    stateMutableLiveData.value = ViewState(coins = result.value ?: emptyList())
+                }
+            }
+        }.launchIn(viewModelScope)
+    }
+}
