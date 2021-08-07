@@ -1,1 +1,1 @@
-package com.
+package com.garcia.cryptoinfo.presentation.coin_list.comp
