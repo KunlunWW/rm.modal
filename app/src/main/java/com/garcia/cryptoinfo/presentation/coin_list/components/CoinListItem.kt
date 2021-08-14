@@ -4,4 +4,5 @@ import androidx.compose.foundation.Image
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.*
 import androidx.compose.material.MaterialTheme
-import androidx.co
+import androidx.compose.material.Text
+import androidx.compose.runt
