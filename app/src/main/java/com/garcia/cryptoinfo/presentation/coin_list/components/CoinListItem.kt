@@ -6,4 +6,5 @@ import androidx.compose.foundation.layout.*
 import androidx.compose.material.MaterialTheme
 import androidx.compose.material.Text
 import androidx.compose.runtime.Composable
-import androidx.compose
+import androidx.compose.ui.Alignment.Companion.CenterVertically
+import andr
