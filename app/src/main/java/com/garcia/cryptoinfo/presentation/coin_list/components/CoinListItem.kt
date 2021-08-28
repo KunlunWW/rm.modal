@@ -13,4 +13,5 @@ import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
 import coil.annotation.ExperimentalCoilApi
-import
+import coil.compose.rememberImagePainter
+import coil.decode.Svg
