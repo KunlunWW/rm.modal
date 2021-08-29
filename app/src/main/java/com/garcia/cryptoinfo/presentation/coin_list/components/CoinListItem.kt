@@ -14,4 +14,5 @@ import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
 import coil.annotation.ExperimentalCoilApi
 import coil.compose.rememberImagePainter
-import coil.decode.Svg
+import coil.decode.SvgDecoder
+import com.garcia.cryptoinfo.common.Co
