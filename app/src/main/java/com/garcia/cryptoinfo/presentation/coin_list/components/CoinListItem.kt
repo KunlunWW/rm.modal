@@ -17,4 +17,5 @@ import coil.compose.rememberImagePainter
 import coil.decode.SvgDecoder
 import com.garcia.cryptoinfo.common.Constants.CHART_7DAYS
 import com.garcia.cryptoinfo.common.Constants.CHART_BASE_URL
-import com.garcia.cryptoinfo.common.Constants.COIN_LOGO_BAS
+import com.garcia.cryptoinfo.common.Constants.COIN_LOGO_BASE_URL
+import com.garcia.cryptoinfo.common.Constants.LOGO_
