@@ -18,4 +18,5 @@ import coil.decode.SvgDecoder
 import com.garcia.cryptoinfo.common.Constants.CHART_7DAYS
 import com.garcia.cryptoinfo.common.Constants.CHART_BASE_URL
 import com.garcia.cryptoinfo.common.Constants.COIN_LOGO_BASE_URL
-import com.garcia.cryptoinfo.common.Constants.LOGO_
+import com.garcia.cryptoinfo.common.Constants.LOGO_PNG
+import com.garcia.cryptoinfo.domai
