@@ -19,4 +19,6 @@ import com.garcia.cryptoinfo.common.Constants.CHART_7DAYS
 import com.garcia.cryptoinfo.common.Constants.CHART_BASE_URL
 import com.garcia.cryptoinfo.common.Constants.COIN_LOGO_BASE_URL
 import com.garcia.cryptoinfo.common.Constants.LOGO_PNG
-import com.garcia.cryptoinfo.domai
+import com.garcia.cryptoinfo.domain.model.Coin
+
+@OptIn(ExperimentalCoilApi::class
