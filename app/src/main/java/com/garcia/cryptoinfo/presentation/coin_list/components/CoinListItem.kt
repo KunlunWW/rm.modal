@@ -21,4 +21,7 @@ import com.garcia.cryptoinfo.common.Constants.COIN_LOGO_BASE_URL
 import com.garcia.cryptoinfo.common.Constants.LOGO_PNG
 import com.garcia.cryptoinfo.domain.model.Coin
 
-@OptIn(ExperimentalCoilApi::class
+@OptIn(ExperimentalCoilApi::class)
+@Composable
+fun CoinListItem(
+    coin: Coi
