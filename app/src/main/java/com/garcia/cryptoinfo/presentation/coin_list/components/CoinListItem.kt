@@ -24,4 +24,7 @@ import com.garcia.cryptoinfo.domain.model.Coin
 @OptIn(ExperimentalCoilApi::class)
 @Composable
 fun CoinListItem(
-    coin: Coi
+    coin: Coin,
+    onItemClick: (Coin) -> Unit
+) {
+   
