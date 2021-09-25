@@ -39,4 +39,5 @@ fun CoinListItem(
             modifier = Modifier.height(IntrinsicSize.Min)
         ) {
             Image(
-      
+                painter = rememberImagePainter(
+       
