@@ -36,4 +36,4 @@ fun CoinListItem(
     ) {
 
         Row(
-   
+            modifier = Modifier.height(Intr
