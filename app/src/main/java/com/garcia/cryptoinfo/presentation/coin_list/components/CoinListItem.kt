@@ -32,4 +32,4 @@ fun CoinListItem(
             .fillMaxWidth()
             .clickable { onItemClick(coin) }
             .padding(20.dp),
-        h
+        horizontalArrangement = Arrangement.SpaceBe
