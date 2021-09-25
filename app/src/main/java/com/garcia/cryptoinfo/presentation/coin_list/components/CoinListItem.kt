@@ -36,4 +36,7 @@ fun CoinListItem(
     ) {
 
         Row(
-            modifier = Modifier.height(Intr
+            modifier = Modifier.height(IntrinsicSize.Min)
+        ) {
+            Image(
+      
