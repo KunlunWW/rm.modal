@@ -40,4 +40,6 @@ fun CoinListItem(
         ) {
             Image(
                 painter = rememberImagePainter(
-                    "$COIN_LOGO_BASE_URL${coin.id}$LOGO_
+                    "$COIN_LOGO_BASE_URL${coin.id}$LOGO_PNG",
+                    builder = {
+             
