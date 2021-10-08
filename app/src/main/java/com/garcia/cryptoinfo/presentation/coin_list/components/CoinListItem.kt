@@ -43,4 +43,6 @@ fun CoinListItem(
                     "$COIN_LOGO_BASE_URL${coin.id}$LOGO_PNG",
                     builder = {
                         crossfade(true)
-                 
+                    }
+                ),
+                contentDescr
