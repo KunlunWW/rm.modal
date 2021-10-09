@@ -49,4 +49,4 @@ fun CoinListItem(
                 modifier = Modifier.size(50.dp)
             )
             Text(
-               
+                text = "${coin.rank} - ${coin.name} (${coin.symbo
