@@ -46,4 +46,7 @@ fun CoinListItem(
                     }
                 ),
                 contentDescription = null,
-                modifier = Modifier.size(50.dp
+                modifier = Modifier.size(50.dp)
+            )
+            Text(
+               
