@@ -45,4 +45,5 @@ fun CoinListItem(
                         crossfade(true)
                     }
                 ),
-                contentDescr
+                contentDescription = null,
+                modifier = Modifier.size(50.dp
