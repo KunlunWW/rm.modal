@@ -54,4 +54,5 @@ fun CoinListItem(
                 overflow = TextOverflow.Ellipsis,
                 maxLines = 2,
                 modifier = Modifier
+                    .align(CenterVertically)
         
