@@ -55,4 +55,5 @@ fun CoinListItem(
                 maxLines = 2,
                 modifier = Modifier
                     .align(CenterVertically)
-        
+                    .padding(
+                        start = 15.d
