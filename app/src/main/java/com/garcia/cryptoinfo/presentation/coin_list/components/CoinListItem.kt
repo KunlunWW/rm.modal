@@ -52,4 +52,6 @@ fun CoinListItem(
                 text = "${coin.rank} - ${coin.name} (${coin.symbol})",
                 style = MaterialTheme.typography.body1,
                 overflow = TextOverflow.Ellipsis,
-                maxLines = 
+                maxLines = 2,
+                modifier = Modifier
+        
