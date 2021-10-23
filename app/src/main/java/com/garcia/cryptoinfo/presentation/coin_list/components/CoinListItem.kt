@@ -57,4 +57,6 @@ fun CoinListItem(
                     .align(CenterVertically)
                     .padding(
                         start = 15.dp,
-                        end 
+                        end = 15.dp
+                    )
+                 
