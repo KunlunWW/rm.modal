@@ -56,4 +56,5 @@ fun CoinListItem(
                 modifier = Modifier
                     .align(CenterVertically)
                     .padding(
-                        start = 15.d
+                        start = 15.dp,
+                        end 
