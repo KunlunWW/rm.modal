@@ -65,4 +65,6 @@ fun CoinListItem(
 
         Image(
             painter = rememberImagePainter(
-                "$CHART_BASE_URL${coin.id}
+                "$CHART_BASE_URL${coin.id}$CHART_7DAYS",
+                builder = {
+        
