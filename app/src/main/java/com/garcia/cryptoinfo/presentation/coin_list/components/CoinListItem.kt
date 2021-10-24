@@ -64,4 +64,5 @@ fun CoinListItem(
         }
 
         Image(
-            painter = rememberImag
+            painter = rememberImagePainter(
+                "$CHART_BASE_URL${coin.id}
