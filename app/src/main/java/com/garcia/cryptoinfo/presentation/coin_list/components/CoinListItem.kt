@@ -59,4 +59,8 @@ fun CoinListItem(
                         start = 15.dp,
                         end = 15.dp
                     )
-                    .sizeIn(minWidth = 100.dp, maxWidth 
+                    .sizeIn(minWidth = 100.dp, maxWidth = 200.dp)
+            )
+        }
+
+        
