@@ -63,4 +63,5 @@ fun CoinListItem(
             )
         }
 
-        
+        Image(
+            painter = rememberImag
