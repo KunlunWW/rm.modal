@@ -67,4 +67,5 @@ fun CoinListItem(
             painter = rememberImagePainter(
                 "$CHART_BASE_URL${coin.id}$CHART_7DAYS",
                 builder = {
-        
+                    crossfade(true)
+               
