@@ -72,4 +72,6 @@ fun CoinListItem(
                 }
             ),
             contentDescription = null,
-            contentScale = ContentSca
+            contentScale = ContentScale.Crop,
+            modifier = Modifier
+  
