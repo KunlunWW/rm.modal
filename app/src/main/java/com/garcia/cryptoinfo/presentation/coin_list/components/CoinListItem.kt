@@ -69,4 +69,6 @@ fun CoinListItem(
                 builder = {
                     crossfade(true)
                     decoder(SvgDecoder(LocalContext.current))
-     
+                }
+            ),
+            contentDescript
