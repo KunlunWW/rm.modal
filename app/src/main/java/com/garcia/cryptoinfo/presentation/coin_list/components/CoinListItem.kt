@@ -71,4 +71,5 @@ fun CoinListItem(
                     decoder(SvgDecoder(LocalContext.current))
                 }
             ),
-            contentDescript
+            contentDescription = null,
+            contentScale = ContentSca
