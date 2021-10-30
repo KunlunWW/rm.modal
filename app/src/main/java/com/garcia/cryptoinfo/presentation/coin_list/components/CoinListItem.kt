@@ -68,4 +68,5 @@ fun CoinListItem(
                 "$CHART_BASE_URL${coin.id}$CHART_7DAYS",
                 builder = {
                     crossfade(true)
-               
+                    decoder(SvgDecoder(LocalContext.current))
+     
