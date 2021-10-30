@@ -74,4 +74,5 @@ fun CoinListItem(
             contentDescription = null,
             contentScale = ContentScale.Crop,
             modifier = Modifier
-  
+                .requiredSize(96.dp,32.dp)
+      
