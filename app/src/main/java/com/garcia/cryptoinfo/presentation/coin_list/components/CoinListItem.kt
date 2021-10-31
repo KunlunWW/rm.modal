@@ -75,4 +75,7 @@ fun CoinListItem(
             contentScale = ContentScale.Crop,
             modifier = Modifier
                 .requiredSize(96.dp,32.dp)
-      
+                .align(CenterVertically)
+        )
+    }
+}
