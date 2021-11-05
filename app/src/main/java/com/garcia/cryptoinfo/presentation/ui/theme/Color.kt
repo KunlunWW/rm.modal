@@ -1,3 +1,5 @@
 package com.garcia.cryptoinfo.presentation.ui.theme
 
-imp
+import androidx.compose.ui.graphics.Color
+
+val DarkGray
