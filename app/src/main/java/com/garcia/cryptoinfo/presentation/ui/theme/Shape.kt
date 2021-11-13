@@ -1,3 +1,3 @@
 package com.garcia.cryptoinfo.presentation.ui.theme
 
-import androi
+import androidx.compose.foundation.shape.RoundedCornerS
