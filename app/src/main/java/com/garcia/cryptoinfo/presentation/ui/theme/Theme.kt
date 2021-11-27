@@ -6,4 +6,5 @@ import androidx.compose.material.lightColors
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.graphics.Color
 
-private val Dark
+private val DarkColorPalette = darkColors(
+    primary =
