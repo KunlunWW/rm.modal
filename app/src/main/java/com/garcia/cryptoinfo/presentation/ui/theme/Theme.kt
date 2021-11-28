@@ -13,4 +13,5 @@ private val DarkColorPalette = darkColors(
     onPrimary = DarkGray
 )
 
-pri
+private val LightColorPalette = lightColors(
+    prima
