@@ -15,4 +15,6 @@ private val DarkColorPalette = darkColors(
 
 private val LightColorPalette = lightColors(
     primary = ColorPrimary,
-    background = Colo
+    background = Color.White,
+    onBackground = MediumGray,
+   
