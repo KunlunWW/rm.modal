@@ -21,4 +21,4 @@ private val LightColorPalette = lightColors(
 )
 
 @Composable
-fun c
+fun cryptoInfoAppTheme(darkTheme: Boolean = tru
