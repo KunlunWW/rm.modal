@@ -21,4 +21,5 @@ private val LightColorPalette = lightColors(
 )
 
 @Composable
-fun cryptoInfoAppTheme(darkTheme: Boolean = tru
+fun cryptoInfoAppTheme(darkTheme: Boolean = true, content: @Composable () -> Unit) {
+    val colors = if 
