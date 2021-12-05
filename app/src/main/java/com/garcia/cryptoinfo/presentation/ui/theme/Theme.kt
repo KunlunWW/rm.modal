@@ -25,4 +25,8 @@ fun cryptoInfoAppTheme(darkTheme: Boolean = true, content: @Composable () -> Uni
     val colors = if (darkTheme) {
         DarkColorPalette
     } else {
-        LightColorPale
+        LightColorPalette
+    }
+
+    MaterialTheme(
+        colors = co
