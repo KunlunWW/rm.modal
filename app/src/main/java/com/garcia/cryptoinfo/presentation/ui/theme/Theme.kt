@@ -31,4 +31,5 @@ fun cryptoInfoAppTheme(darkTheme: Boolean = true, content: @Composable () -> Uni
     MaterialTheme(
         colors = colors,
         typography = Typography,
- 
+        shapes = Shapes,
+        content = content
