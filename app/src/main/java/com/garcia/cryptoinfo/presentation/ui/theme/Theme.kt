@@ -23,4 +23,6 @@ private val LightColorPalette = lightColors(
 @Composable
 fun cryptoInfoAppTheme(darkTheme: Boolean = true, content: @Composable () -> Unit) {
     val colors = if (darkTheme) {
-        DarkColorPalett
+        DarkColorPalette
+    } else {
+        LightColorPale
