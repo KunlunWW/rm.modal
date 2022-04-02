@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">CryptoInfoApp</string>
-    <string name="connecti
+    <string name="connection_error">No internet connection.</string>
+    <s
