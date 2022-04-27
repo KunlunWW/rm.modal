@@ -9,4 +9,5 @@
         <item name="colorSecondary">@color/primary</item>
         <item name="colorSecondaryVariant">@color/primary</item>
         <item name="colorOnSecondary">@color/black</item>
-        <!-- Sta
+        <!-- Status bar color. -->
+        <item name="
