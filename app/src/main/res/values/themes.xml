@@ -15,4 +15,5 @@
     </style>
 
     <style name="Theme.CryptoInfoApp.NoActionBar">
-        <item name="wind
+        <item name="windowActionBar">false</item>
+        <item name="wi
