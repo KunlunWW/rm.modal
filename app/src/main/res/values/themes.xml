@@ -16,4 +16,7 @@
 
     <style name="Theme.CryptoInfoApp.NoActionBar">
         <item name="windowActionBar">false</item>
-        <item name="wi
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style na
