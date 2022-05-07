@@ -21,4 +21,4 @@
 
     <style name="Theme.CryptoInfoApp.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
 
-  
+    <style name="Theme.CryptoInfoApp.PopupOverlay" pa
