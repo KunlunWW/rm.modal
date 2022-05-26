@@ -5,4 +5,5 @@
         <item name="colorPrimary">@color/primary</item>
         <item name="colorPrimaryVariant">@color/primary</item>
         <item name="colorOnPrimary">@color/black</item>
-        <!-- Secon
+        <!-- Secondary brand color. -->
+        <item name="colorSe
