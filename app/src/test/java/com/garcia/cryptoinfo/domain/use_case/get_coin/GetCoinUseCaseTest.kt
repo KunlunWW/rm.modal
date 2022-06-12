@@ -6,4 +6,5 @@ import com.garcia.cryptoinfo.domain.model.CoinDetail
 import com.garcia.cryptoinfo.domain.repository.CoinRepository
 import io.mockk.MockKAnnotations
 import io.mockk.coEvery
-import io.mockk.impl.a
+import io.mockk.impl.annotations.MockK
+import kotlinx.coroutines.Experi
