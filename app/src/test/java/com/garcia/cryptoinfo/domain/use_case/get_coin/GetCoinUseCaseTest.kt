@@ -20,4 +20,7 @@ import org.junit.runners.JUnit4
 @RunWith(JUnit4::class)
 class GetCoinUseCaseTest{
 
-  
+    private lateinit var useCase: GetCoinUseCase
+
+    @MockK
+    i
