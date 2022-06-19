@@ -31,4 +31,6 @@ class GetCoinUseCaseTest{
         useCase = GetCoinUseCase(repository)
     }
 
-    @ExperimentalCo
+    @ExperimentalCoroutinesApi
+    @Test
+    fun `should call getCoinBy
