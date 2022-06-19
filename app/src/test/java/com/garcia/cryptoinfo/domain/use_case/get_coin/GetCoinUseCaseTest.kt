@@ -28,4 +28,7 @@ class GetCoinUseCaseTest{
     @Before
     fun setUp() {
         MockKAnnotations.init(this)
-        useCase = GetC
+        useCase = GetCoinUseCase(repository)
+    }
+
+    @ExperimentalCo
