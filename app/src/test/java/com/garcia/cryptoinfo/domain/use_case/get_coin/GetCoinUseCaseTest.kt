@@ -35,4 +35,6 @@ class GetCoinUseCaseTest{
     @Test
     fun `should call getCoinById`() = runBlockingTest {
         // given
-        given(ResultWrapper.Success(DomainObjectsMocks
+        given(ResultWrapper.Success(DomainObjectsMocks.getCoinDetail(COIN_ID)))
+
+        // when
