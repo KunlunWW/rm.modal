@@ -41,4 +41,5 @@ class GetCoinUseCaseTest{
         val result = useCase(COIN_ID)
 
         // then
-  
+        result.count() shouldBeEqualTo 1
+    }
