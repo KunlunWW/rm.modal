@@ -38,3 +38,7 @@ class GetCoinUseCaseTest{
         given(ResultWrapper.Success(DomainObjectsMocks.getCoinDetail(COIN_ID)))
 
         // when
+        val result = useCase(COIN_ID)
+
+        // then
+  
