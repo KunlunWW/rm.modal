@@ -43,3 +43,7 @@ class GetCoinUseCaseTest{
         // then
         result.count() shouldBeEqualTo 1
     }
+
+    @ExperimentalCoroutinesApi
+    @Test
+    fu
