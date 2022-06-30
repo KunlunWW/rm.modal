@@ -46,4 +46,4 @@ class GetCoinUseCaseTest{
 
     @ExperimentalCoroutinesApi
     @Test
-    fu
+    fun `should return ResultWrapperSuccess when getCoin
