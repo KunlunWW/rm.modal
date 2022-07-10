@@ -49,4 +49,7 @@ class GetCoinUseCaseTest{
     fun `should return ResultWrapperSuccess when getCoinById is successful`() = runBlockingTest {
         // given
         val data = DomainObjectsMocks.getCoinDetail(COIN_ID)
-        given(Result
+        given(ResultWrapper.Success(data))
+
+        // when
+    
