@@ -55,4 +55,7 @@ class GetCoinUseCaseTest{
         val result = useCase(COIN_ID)
 
         // then
-        result.first() shouldBeEqualTo ResultWrapper.Succes
+        result.first() shouldBeEqualTo ResultWrapper.Success(data)
+    }
+
+    @ExperimentalCoroutinesApi
