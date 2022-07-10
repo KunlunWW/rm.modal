@@ -52,4 +52,7 @@ class GetCoinUseCaseTest{
         given(ResultWrapper.Success(data))
 
         // when
-    
+        val result = useCase(COIN_ID)
+
+        // then
+  
