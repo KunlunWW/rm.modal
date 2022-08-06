@@ -61,4 +61,7 @@ class GetCoinUseCaseTest{
     @ExperimentalCoroutinesApi
     @Test
     fun `should return ResultWrapperError when getCoinById returns error`() = runBlockingTest {
-        /
+        // given
+        given(ResultWrapper.Error())
+
+        // when
