@@ -65,3 +65,6 @@ class GetCoinUseCaseTest{
         given(ResultWrapper.Error())
 
         // when
+        val result = useCase(COIN_ID)
+
+     
