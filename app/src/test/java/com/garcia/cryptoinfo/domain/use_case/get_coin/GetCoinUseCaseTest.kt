@@ -67,4 +67,5 @@ class GetCoinUseCaseTest{
         // when
         val result = useCase(COIN_ID)
 
-     
+        // then
+        result.first() shouldBeEq
