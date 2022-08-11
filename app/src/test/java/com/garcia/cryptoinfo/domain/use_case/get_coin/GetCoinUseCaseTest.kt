@@ -75,4 +75,7 @@ class GetCoinUseCaseTest{
     @Test
     fun `should return ResultWrapperNetworkError when getCoinById returns networkError`() = runBlockingTest {
         // given
-        given(ResultWrapper.
+        given(ResultWrapper.NetworkError)
+
+        // when
+        va
