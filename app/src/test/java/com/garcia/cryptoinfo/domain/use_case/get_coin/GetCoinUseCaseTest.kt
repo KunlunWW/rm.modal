@@ -71,3 +71,6 @@ class GetCoinUseCaseTest{
         result.first() shouldBeEqualTo ResultWrapper.Error()
     }
 
+    @ExperimentalCoroutinesApi
+    @Test
+   
