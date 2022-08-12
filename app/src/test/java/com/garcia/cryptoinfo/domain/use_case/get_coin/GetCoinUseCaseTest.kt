@@ -81,4 +81,4 @@ class GetCoinUseCaseTest{
         val result = useCase(COIN_ID)
 
         // then
-       
+        result.first() shouldBeEqualTo ResultWrapp
