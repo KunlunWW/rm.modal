@@ -84,4 +84,5 @@ class GetCoinUseCaseTest{
         result.first() shouldBeEqualTo ResultWrapper.NetworkError
     }
 
-    private fun gi
+    private fun given(
+        result: ResultWrapper<CoinDetail
