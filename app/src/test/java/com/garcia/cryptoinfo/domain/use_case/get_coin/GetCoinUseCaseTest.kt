@@ -81,4 +81,7 @@ class GetCoinUseCaseTest{
         val result = useCase(COIN_ID)
 
         // then
-        result.first() shouldBeEqualTo ResultWrapp
+        result.first() shouldBeEqualTo ResultWrapper.NetworkError
+    }
+
+    private fun gi
