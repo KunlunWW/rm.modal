@@ -90,4 +90,5 @@ class GetCoinUseCaseTest{
         coEvery { repository.getCoinById(any()) } returns result
     }
 
-    c
+    companion object{
+        const val COIN_ID = 
