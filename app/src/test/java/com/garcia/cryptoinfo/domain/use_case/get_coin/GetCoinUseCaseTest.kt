@@ -87,4 +87,7 @@ class GetCoinUseCaseTest{
     private fun given(
         result: ResultWrapper<CoinDetail>
     ){
-        coEvery { repository.getCoinById(any()) }
+        coEvery { repository.getCoinById(any()) } returns result
+    }
+
+    c
