@@ -91,4 +91,6 @@ class GetCoinUseCaseTest{
     }
 
     companion object{
-        const val COIN_ID = 
+        const val COIN_ID = "10"
+    }
+}
