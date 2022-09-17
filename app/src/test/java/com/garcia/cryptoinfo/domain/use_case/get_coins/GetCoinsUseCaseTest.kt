@@ -1,3 +1,3 @@
 package com.garcia.cryptoinfo.domain.use_case.get_coins
 
-import
+import com.garcia.cryptoinfo.common.ResultWrap
