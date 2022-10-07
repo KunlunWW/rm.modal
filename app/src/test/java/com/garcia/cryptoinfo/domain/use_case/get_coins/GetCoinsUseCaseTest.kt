@@ -13,4 +13,6 @@ import kotlinx.coroutines.flow.first
 import kotlinx.coroutines.test.runBlockingTest
 import org.amshove.kluent.shouldBeEqualTo
 import org.junit.Before
-im
+import org.junit.Test
+import org.junit.runner.RunWith
+impo
