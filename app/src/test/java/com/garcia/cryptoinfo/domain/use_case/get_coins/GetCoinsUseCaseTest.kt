@@ -15,4 +15,6 @@ import org.amshove.kluent.shouldBeEqualTo
 import org.junit.Before
 import org.junit.Test
 import org.junit.runner.RunWith
-impo
+import org.junit.runners.JUnit4
+
+@RunWith(JUnit4::class)
