@@ -23,3 +23,4 @@ class GetCoinsUseCaseTest{
     private lateinit var useCase: GetCoinsUseCase
 
     @MockK
+    internal lateinit var repository: CoinRepository
