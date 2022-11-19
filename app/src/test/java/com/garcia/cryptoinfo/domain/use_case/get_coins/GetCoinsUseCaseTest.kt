@@ -24,3 +24,7 @@ class GetCoinsUseCaseTest{
 
     @MockK
     internal lateinit var repository: CoinRepository
+
+    @Before
+    fun setUp() {
+        MockKAnnotations.init
