@@ -27,4 +27,5 @@ class GetCoinsUseCaseTest{
 
     @Before
     fun setUp() {
-        MockKAnnotations.init
+        MockKAnnotations.init(this)
+        useCase = GetCoinsUseCase(rep
