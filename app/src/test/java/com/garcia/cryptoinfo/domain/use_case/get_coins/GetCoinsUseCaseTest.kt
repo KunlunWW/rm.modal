@@ -33,4 +33,6 @@ class GetCoinsUseCaseTest{
 
     @ExperimentalCoroutinesApi
     @Test
-    fun `should call getCoin
+    fun `should call getCoins`() = runBlockingTest {
+        // given
+   
