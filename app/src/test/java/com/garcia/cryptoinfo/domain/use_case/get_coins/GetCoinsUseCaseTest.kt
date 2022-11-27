@@ -50,3 +50,6 @@ class GetCoinsUseCaseTest{
         // given
         val data = DomainObjectsMocks.getCoins()
         given(ResultWrapper.Success(data))
+
+        // when
+        val result = useCase()
