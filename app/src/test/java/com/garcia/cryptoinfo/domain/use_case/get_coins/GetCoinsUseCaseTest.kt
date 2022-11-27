@@ -46,4 +46,4 @@ class GetCoinsUseCaseTest{
 
     @ExperimentalCoroutinesApi
     @Test
-    fun `s
+    fun `should return ResultWrapperSuccess when g
