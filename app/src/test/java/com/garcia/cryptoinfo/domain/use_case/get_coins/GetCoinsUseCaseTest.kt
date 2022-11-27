@@ -44,4 +44,6 @@ class GetCoinsUseCaseTest{
         result.count() shouldBeEqualTo 1
     }
 
-  
+    @ExperimentalCoroutinesApi
+    @Test
+    fun `s
