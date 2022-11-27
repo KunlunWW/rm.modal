@@ -47,4 +47,5 @@ class GetCoinsUseCaseTest{
     @ExperimentalCoroutinesApi
     @Test
     fun `should return ResultWrapperSuccess when getCoins is successful`() = runBlockingTest {
-      
+        // given
+        val data = DomainObjectsMocks.getCoi
