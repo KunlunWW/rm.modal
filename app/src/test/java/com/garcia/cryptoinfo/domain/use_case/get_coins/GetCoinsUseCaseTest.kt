@@ -60,4 +60,4 @@ class GetCoinsUseCaseTest{
 
     @ExperimentalCoroutinesApi
     @Test
-    fun `should re
+    fun `should return ResultWrapperError when getCoins returns error`() = r
