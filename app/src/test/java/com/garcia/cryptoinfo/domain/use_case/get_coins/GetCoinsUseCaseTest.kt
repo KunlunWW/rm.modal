@@ -60,4 +60,6 @@ class GetCoinsUseCaseTest{
 
     @ExperimentalCoroutinesApi
     @Test
-    fun `should return ResultWrapperError when getCoins returns error`() = r
+    fun `should return ResultWrapperError when getCoins returns error`() = runBlockingTest {
+        // given
+        give
