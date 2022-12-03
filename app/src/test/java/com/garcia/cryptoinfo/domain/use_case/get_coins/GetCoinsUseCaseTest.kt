@@ -62,4 +62,7 @@ class GetCoinsUseCaseTest{
     @Test
     fun `should return ResultWrapperError when getCoins returns error`() = runBlockingTest {
         // given
-        give
+        given(ResultWrapper.Error())
+
+        // when
+        val
