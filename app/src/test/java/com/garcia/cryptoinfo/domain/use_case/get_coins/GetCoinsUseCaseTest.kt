@@ -58,4 +58,6 @@ class GetCoinsUseCaseTest{
         result.first() shouldBeEqualTo ResultWrapper.Success(data)
     }
 
-    
+    @ExperimentalCoroutinesApi
+    @Test
+    fun `should re
