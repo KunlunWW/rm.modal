@@ -65,4 +65,7 @@ class GetCoinsUseCaseTest{
         given(ResultWrapper.Error())
 
         // when
-        val
+        val result = useCase()
+
+        // then
+        result.fir
