@@ -68,4 +68,4 @@ class GetCoinsUseCaseTest{
         val result = useCase()
 
         // then
-        result.fir
+        result.first() shouldBeEqualTo ResultWrapper.Error
