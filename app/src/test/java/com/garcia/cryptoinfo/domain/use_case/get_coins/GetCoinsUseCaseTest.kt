@@ -55,4 +55,7 @@ class GetCoinsUseCaseTest{
         val result = useCase()
 
         // then
-        result.first() shouldBe
+        result.first() shouldBeEqualTo ResultWrapper.Success(data)
+    }
+
+    
