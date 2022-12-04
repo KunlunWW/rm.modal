@@ -73,4 +73,4 @@ class GetCoinsUseCaseTest{
 
     @ExperimentalCoroutinesApi
     @Test
-   
+    fun `should return ResultWrapperNetworkError 
