@@ -73,4 +73,6 @@ class GetCoinsUseCaseTest{
 
     @ExperimentalCoroutinesApi
     @Test
-    fun `should return ResultWrapperNetworkError when getCoins returns networkError`() = r
+    fun `should return ResultWrapperNetworkError when getCoins returns networkError`() = runBlockingTest {
+        // given
+        give
