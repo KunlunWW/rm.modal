@@ -77,4 +77,7 @@ class GetCoinsUseCaseTest{
         // given
         given(ResultWrapper.NetworkError)
 
-        
+        // when
+        val result = useCase()
+
+   
