@@ -81,4 +81,7 @@ class GetCoinsUseCaseTest{
         val result = useCase()
 
         // then
-        result.first() shouldB
+        result.first() shouldBeEqualTo ResultWrapper.NetworkError
+    }
+
+    pr
