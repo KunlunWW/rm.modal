@@ -80,4 +80,5 @@ class GetCoinsUseCaseTest{
         // when
         val result = useCase()
 
-   
+        // then
+        result.first() shouldB
