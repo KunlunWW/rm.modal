@@ -85,4 +85,6 @@ class GetCoinsUseCaseTest{
     }
 
     private fun given(
-        result: ResultWrapper<List<C
+        result: ResultWrapper<List<Coin>>
+    ){
+        coEvery { reposito
