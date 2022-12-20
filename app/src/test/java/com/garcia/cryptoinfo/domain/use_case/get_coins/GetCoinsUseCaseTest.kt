@@ -87,4 +87,6 @@ class GetCoinsUseCaseTest{
     private fun given(
         result: ResultWrapper<List<Coin>>
     ){
-        coEvery { reposito
+        coEvery { repository.getCoins() } returns result
+    }
+}
