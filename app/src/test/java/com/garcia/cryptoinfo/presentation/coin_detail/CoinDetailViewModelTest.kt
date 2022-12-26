@@ -64,3 +64,37 @@ class CoinDetailViewModelTest{
         // given
         val error = ResultWrapper.Error(message = "Error message")
         given(error)
+
+        // when
+        viewModel = CoinDetailViewModel(getCoinUseCase, savedStateHandle)
+
+        // verify
+        viewModel.state.value shouldBeEqualTo CoinDetailViewModel.ViewState(
+            isLoading = false,
+            coin = null,
+            error = Error(message = error.message)
+        )
+    }
+
+    @Test
+    fun `verify state when getCoinUseCase returns NetworkError`() {
+        // given
+        given(ResultWrapper.NetworkError)
+
+        // when
+        viewModel = CoinDetailViewModel(getCoinUseCase, savedStateHandle)
+
+        // verify
+        viewModel.state.value shouldBeEqualTo CoinDetailViewModel.ViewState(
+            isLoading = false,
+            coin = null,
+            error = Error(resourceId = R.string.connection_error)
+        )
+    }
+
+    private fun given(
+        result: ResultWrapper<CoinDetail>
+    ){
+        coEvery { getCoinUseCase(any()) } returns flowOf(result)
+    }
+}
