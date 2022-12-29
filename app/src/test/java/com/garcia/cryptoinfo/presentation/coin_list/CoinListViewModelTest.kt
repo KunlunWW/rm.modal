@@ -5,4 +5,5 @@ import com.garcia.cryptoinfo.R
 import com.garcia.cryptoinfo.common.Error
 import com.garcia.cryptoinfo.common.ResultWrapper
 import com.garcia.cryptoinfo.domain.model.Coin
-import com.garcia.cryptoinfo.domain.
+import com.garcia.cryptoinfo.domain.use_case.get_coins.GetCoinsUseCase
+import com.garc
