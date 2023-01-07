@@ -10,4 +10,5 @@ import com.garcia.cryptoinfo.domain.utils.DomainObjectsMocks
 import com.garcia.cryptoinfo.utils.CoroutineRule
 import io.mockk.MockKAnnotations
 import io.mockk.coEvery
-import io.mockk.impl.a
+import io.mockk.impl.annotations.MockK
+import kotlinx.coroutines.Experiment
