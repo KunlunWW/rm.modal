@@ -21,4 +21,5 @@ import org.junit.runner.RunWith
 import org.junit.runners.JUnit4
 
 @ExperimentalCoroutinesApi
-@RunW
+@RunWith(JUnit4::class)
+class CoinListViewModelTest{
