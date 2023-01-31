@@ -25,4 +25,7 @@ import org.junit.runners.JUnit4
 class CoinListViewModelTest{
 
     @get:Rule
-    var coroutinesTestRule = CoroutineRul
+    var coroutinesTestRule = CoroutineRule()
+
+    @get:Rule
+    var rule = Inst
