@@ -23,3 +23,6 @@ import org.junit.runners.JUnit4
 @ExperimentalCoroutinesApi
 @RunWith(JUnit4::class)
 class CoinListViewModelTest{
+
+    @get:Rule
+    var coroutinesTestRule = CoroutineRul
