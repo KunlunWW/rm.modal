@@ -30,4 +30,7 @@ class CoinListViewModelTest{
     @get:Rule
     var rule = InstantTaskExecutorRule()
 
-    private lateinit var viewModel: CoinListVie
+    private lateinit var viewModel: CoinListViewModel
+
+    @MockK(relaxed = true)
+    lateinit va
