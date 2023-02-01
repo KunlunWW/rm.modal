@@ -30,4 +30,4 @@ class CoinListViewModelTest{
     @get:Rule
     var rule = InstantTaskExecutorRule()
 
-    private
+    private lateinit var viewModel: CoinListVie
