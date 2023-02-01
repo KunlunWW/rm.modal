@@ -28,4 +28,6 @@ class CoinListViewModelTest{
     var coroutinesTestRule = CoroutineRule()
 
     @get:Rule
-    var rule = Inst
+    var rule = InstantTaskExecutorRule()
+
+    private
