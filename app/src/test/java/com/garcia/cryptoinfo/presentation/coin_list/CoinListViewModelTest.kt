@@ -33,4 +33,8 @@ class CoinListViewModelTest{
     private lateinit var viewModel: CoinListViewModel
 
     @MockK(relaxed = true)
-    lateinit var getCoinsUseCase: GetCoinsUseC
+    lateinit var getCoinsUseCase: GetCoinsUseCase
+
+    @Before
+    fun setUp() {
+        MockKAnnotations.i
