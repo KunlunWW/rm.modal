@@ -37,4 +37,8 @@ class CoinListViewModelTest{
 
     @Before
     fun setUp() {
-        MockKAnnotations.i
+        MockKAnnotations.init(this)
+    }
+
+    @Test
+    fun `verify 
