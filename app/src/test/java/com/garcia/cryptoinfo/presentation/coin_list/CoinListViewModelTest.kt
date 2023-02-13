@@ -43,4 +43,5 @@ class CoinListViewModelTest{
     @Test
     fun `verify state when getCoinsUseCase returns Success`() {
         // given
-        val data = DomainObjectsM
+        val data = DomainObjectsMocks.getCoins()
+        given(ResultWrapper.Su
