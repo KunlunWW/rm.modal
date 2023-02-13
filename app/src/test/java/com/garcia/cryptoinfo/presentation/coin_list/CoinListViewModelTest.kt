@@ -47,4 +47,6 @@ class CoinListViewModelTest{
         given(ResultWrapper.Success(data))
 
         // when
-        viewModel 
+        viewModel = CoinListViewModel(getCoinsUseCase)
+
+      
