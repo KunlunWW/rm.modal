@@ -49,4 +49,5 @@ class CoinListViewModelTest{
         // when
         viewModel = CoinListViewModel(getCoinsUseCase)
 
-      
+        // verify
+        viewModel.stateLiveData
