@@ -50,4 +50,6 @@ class CoinListViewModelTest{
         viewModel = CoinListViewModel(getCoinsUseCase)
 
         // verify
-        viewModel.stateLiveData.value shouldBeEqualTo CoinListViewModel.Vi
+        viewModel.stateLiveData.value shouldBeEqualTo CoinListViewModel.ViewState(
+            isLoading = false,
+  
