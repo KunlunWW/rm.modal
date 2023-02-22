@@ -55,3 +55,7 @@ class CoinListViewModelTest{
             coins = data,
             error = null
         )
+    }
+
+    @Test
+    fun `verify state whe
