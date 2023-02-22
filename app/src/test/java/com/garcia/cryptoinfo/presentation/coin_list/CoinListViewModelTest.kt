@@ -58,4 +58,5 @@ class CoinListViewModelTest{
     }
 
     @Test
-    fun `verify state whe
+    fun `verify state when getCoinsUseCase returns Error`() {
+       
