@@ -60,4 +60,5 @@ class CoinListViewModelTest{
     @Test
     fun `verify state when getCoinsUseCase returns Error`() {
         // given
-        val error = ResultWrapper.Error(
+        val error = ResultWrapper.Error(message = "Error message")
+        given(e
