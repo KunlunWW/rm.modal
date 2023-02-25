@@ -64,4 +64,6 @@ class CoinListViewModelTest{
         given(error)
 
         // when
-        viewMode
+        viewModel = CoinListViewModel(getCoinsUseCase)
+
+    
