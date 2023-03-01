@@ -68,3 +68,5 @@ class CoinListViewModelTest{
 
         // verify
         viewModel.stateLiveData.value shouldBeEqualTo CoinListViewModel.ViewState(
+            isLoading = false,
+            co
