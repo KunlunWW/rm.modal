@@ -75,4 +75,6 @@ class CoinListViewModelTest{
     }
 
     @Test
-    fun `verify state when getCoinsUseCase returns Net
+    fun `verify state when getCoinsUseCase returns NetworkError`() {
+        // given
+        given(Re
