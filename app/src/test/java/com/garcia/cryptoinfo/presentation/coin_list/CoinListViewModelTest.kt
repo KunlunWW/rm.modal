@@ -75,4 +75,4 @@ class CoinListViewModelTest{
     }
 
     @Test
-    f
+    fun `verify state when getCoinsUseCase returns Net
