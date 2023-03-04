@@ -70,4 +70,9 @@ class CoinListViewModelTest{
         viewModel.stateLiveData.value shouldBeEqualTo CoinListViewModel.ViewState(
             isLoading = false,
             coins = emptyList(),
-            error = Error(message
+            error = Error(message = error.message),
+        )
+    }
+
+    @Test
+    f
