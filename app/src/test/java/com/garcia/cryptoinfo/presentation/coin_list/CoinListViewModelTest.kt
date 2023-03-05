@@ -80,4 +80,6 @@ class CoinListViewModelTest{
         given(ResultWrapper.NetworkError)
 
         // when
-        viewMo
+        viewModel = CoinListViewModel(getCoinsUseCase)
+
+        // v
