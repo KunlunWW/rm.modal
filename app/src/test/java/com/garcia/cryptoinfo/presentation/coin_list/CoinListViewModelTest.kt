@@ -77,4 +77,7 @@ class CoinListViewModelTest{
     @Test
     fun `verify state when getCoinsUseCase returns NetworkError`() {
         // given
-        given(Re
+        given(ResultWrapper.NetworkError)
+
+        // when
+        viewMo
