@@ -91,4 +91,6 @@ class CoinListViewModelTest{
     }
 
     private fun given(
-        getCoin
+        getCoinsResult: ResultWrapper<List<Coin>>
+    ){
+        co
