@@ -86,4 +86,5 @@ class CoinListViewModelTest{
         viewModel.stateLiveData.value shouldBeEqualTo CoinListViewModel.ViewState(
             isLoading = false,
             coins = emptyList(),
-            error = Error(resourceId
+            error = Error(resourceId = R.string.connection_error),
+        )
