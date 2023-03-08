@@ -88,3 +88,7 @@ class CoinListViewModelTest{
             coins = emptyList(),
             error = Error(resourceId = R.string.connection_error),
         )
+    }
+
+    private fun given(
+        getCoin
