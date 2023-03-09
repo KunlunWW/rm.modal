@@ -94,3 +94,5 @@ class CoinListViewModelTest{
         getCoinsResult: ResultWrapper<List<Coin>>
     ){
         coEvery { getCoinsUseCase() } returns flowOf(getCoinsResult)
+    }
+}
