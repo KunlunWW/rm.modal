@@ -1,4 +1,4 @@
 package com.garcia.cryptoinfo.utils
 
 import kotlinx.coroutines.Dispatchers
-impor
+import kotlinx.coroutines.test.TestCoroutineDispatch
