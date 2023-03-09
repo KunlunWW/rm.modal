@@ -93,4 +93,4 @@ class CoinListViewModelTest{
     private fun given(
         getCoinsResult: ResultWrapper<List<Coin>>
     ){
-        co
+        coEvery { getCoinsUseCase() } returns flowOf(getCoinsResult)
