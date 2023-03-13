@@ -9,4 +9,4 @@ import org.junit.runner.Description
 
 class CoroutineRule: TestWatcher() {
 
-    private
+    private val testDispatcher = TestCoroutineDispatch
