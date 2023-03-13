@@ -11,4 +11,5 @@ class CoroutineRule: TestWatcher() {
 
     private val testDispatcher = TestCoroutineDispatcher()
 
-    override fun starting(description: Desc
+    override fun starting(description: Description?) {
+        super.starting(description)
