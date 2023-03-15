@@ -13,3 +13,7 @@ class CoroutineRule: TestWatcher() {
 
     override fun starting(description: Description?) {
         super.starting(description)
+        Dispatchers.setMain(testDispatcher)
+    }
+
+    over
