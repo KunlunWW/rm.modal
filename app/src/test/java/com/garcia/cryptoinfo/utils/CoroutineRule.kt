@@ -16,4 +16,5 @@ class CoroutineRule: TestWatcher() {
         Dispatchers.setMain(testDispatcher)
     }
 
-    over
+    override fun finished(description: Description?) {
+        super.
