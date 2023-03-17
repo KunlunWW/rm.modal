@@ -18,4 +18,5 @@ class CoroutineRule: TestWatcher() {
 
     override fun finished(description: Description?) {
         super.finished(description)
-        Dispat
+        Dispatchers.resetMain()
+        testDispatcher.cleanupT
