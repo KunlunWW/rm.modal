@@ -17,4 +17,5 @@ class CoroutineRule: TestWatcher() {
     }
 
     override fun finished(description: Description?) {
-        super.
+        super.finished(description)
+        Dispat
